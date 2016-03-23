@@ -16,15 +16,15 @@
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a {
-  color: #fff;
+  color: #dbdbdb;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #fff;
+  color: #dbdbdb;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #f15a24;
+  color: #fc7446;
 }
 
 #first-slide {
@@ -138,7 +138,7 @@
 #menu {
   background-image: url('../img/black_linen.png');
   background-size: cover;
-  min-height: 700px;
+  min-height: 750px;
   background-position: center;
 }
 
@@ -162,8 +162,18 @@
 .thumbnail {
 }
 
+.app-heading {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
 .app-paragraph {
   text-align: justify;
+}
+
+.nav-tabs li a {
+  color: #f15a24;
+  font-weight: 500;
 }
 
 #contact {
@@ -181,6 +191,7 @@
 
 #contact p {
   color: #fff;
+  margin-right: 35px;
 }
 
 .contact {
